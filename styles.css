@@ -1,0 +1,170 @@
+a {
+  color: #C32BAD;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+  font-weight: bold;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #3D2C8D;
+  line-height: 9.5rem;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 2.5rem;
+  margin-top: 10px;
+  color: #3D2C8D;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #C32BAD;
+}
+
+p {
+    line-height: 2;
+}
+
+  hr {
+    border-color: #AAA492;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 3%;
+    margin: 100px auto;
+}
+
+.profile-pic {
+  width: 240px;
+  height: 240px;
+}
+
+.intro {
+  margin: auto;
+  width: 30%;
+}
+
+.top-container {
+  background-color: #F0D9FF;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px auto;
+}
+
+.bottom-container {
+  background-color: #C996CC;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.footer-link {
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+.copyright-description {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.reach-out-description {
+  margin: 40px auto 60px;
+  width: 30%;
+}
+
+.contact-me {
+  margin-bottom: 50px;
+}
+
+.btn {
+  text-decoration: none;
+}
+
+/* IMAGE SECTION*/
+
+.top-cloud {
+  position: absolute;
+  top: 40px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.web-image {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.code-image {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.lang-image {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+/* BUTTON-CSS */
+
+.BUTTON_SXT {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   height: 20px;
+   line-height: 30px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   width: 181px;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 30px;
+   background-color: #C268F2;
+   text-shadow: 1px 1px 20px #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_SXT:hover {
+   background: #DF98E2;
+   border: solid #DF5DF2 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
